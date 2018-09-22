@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
-  "version": "1.1.3",
-  "author": "Austin Green",
+  "name": "cuttin-scrap",
+  "description": "Main web page for CuttinScrap",
+  "version": "0.0.1",
+  "author": "Waylon Walker <quadmx08@gmail.com>",
   "dependencies": {
     "bulma": "^0.7.0",
     "gatsby": "^2.0.0",
@@ -43,5 +43,9 @@
   "devDependencies": {
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WaylonWalker/cuttin-scrap"
   }
 }
