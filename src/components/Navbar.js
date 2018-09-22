@@ -9,7 +9,9 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+            < img src = 'https://res.cloudinary.com/cuttin-scrap/image/upload/c_scale,w_150/v153753233/logo/cuttinscrap.png'
+            alt = "cuttin-scrap"
+            />
           </figure>
         </Link>
       </div>
@@ -28,9 +30,6 @@ const Navbar = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
         </a>
       </div>
     </div>
