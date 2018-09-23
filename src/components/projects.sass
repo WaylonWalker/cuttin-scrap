@@ -1,0 +1,50 @@
+.projectGalleryContainer
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+.projectGallery
+    display: grid
+    grid-template-columns: repeat(auto-fill, 300px)
+    grid-auto-rows: 300px
+    grid-auto-flow: dense
+
+    a
+        text-decoration: none
+        color: $black
+
+    .projectThumbnail
+        display: grid
+        justify-content: center
+        justify-items: center
+        align-content: center
+        align-items: center
+        overflow: hidden
+        grid-template-columns: 1
+        grid-template-rows: 1
+        
+        img
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+            object-fit: cover
+            height: 100%
+            width: 100%
+        
+        .projectOverlay
+            background: #ffc60032
+            background: $white
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+            position: relative;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            transition: 0.2s;
+            transform: translateY(100%);
+            text-transform: uppercase
+            height: 100%
+            width: 100%
+
+
+        &:hover .projectOverlay
+            transform: translateY(0)
