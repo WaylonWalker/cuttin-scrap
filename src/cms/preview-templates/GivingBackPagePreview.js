@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { AboutPageTemplate } from '../../templates/about-page'
+import { GivingBackPageTemplate } from '../../templates/giving-back-page'
 
-const AboutPagePreview = ({ entry, widgetFor }) => (
-  <AboutPageTemplate
+const GivingBackPagePreview = ({ entry, widgetFor }) => (
+  <GivingBackPageTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
@@ -16,4 +16,4 @@ GivingBackPagePreview.propTypes = {
   widgetFor: PropTypes.func,
 }
 
-export default AboutPagePreview
+export default GivingBackPagePreview
