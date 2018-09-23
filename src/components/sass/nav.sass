@@ -1,0 +1,22 @@
+nav
+    display: flex
+    ul
+        align-items: center
+        display: flex
+        justify-content: space-around
+        max-width: 500px
+        a
+            padding: .5rem 1rem
+            color: $black
+            text-decoration: none
+            &:hover
+                background: darken($white, 2%)
+
+
+        li
+            padding: 0 .2rem
+            list-style-type: none
+            text-decoration: none
+            border-right: 1px solid $black
+            &:last-of-type
+                border-right: none
