@@ -1,6 +1,6 @@
 ---
 templateKey: project-post
-title: Test Project
+title: Cabin on the Lake
 thumbnailImage: /img/finished.jpg
 date: 2018-09-23T02:11:43.889Z
 description: awesome doughnut
