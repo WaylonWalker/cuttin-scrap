@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Test Project
-thumbnailImage: /img/Rhiannon_fun.jpg
+thumbnailImage: /img/finished.jpg
 date: 2018-09-23T02:11:43.889Z
 description: awesome doughnut
 tags:
