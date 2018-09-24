@@ -9,7 +9,7 @@ const AboutPagePreview = ({ entry, widgetFor }) => (
   />
 )
 
-GivingBackPagePreview.propTypes = {
+AboutPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
