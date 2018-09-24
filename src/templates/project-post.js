@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import ProjectNav from "../components/ProjectNav";
 
 export const ProjectPostTemplate = ({
   content,
@@ -17,7 +18,7 @@ export const ProjectPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className="projectPost">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
