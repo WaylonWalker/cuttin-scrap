@@ -11,8 +11,11 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <h1>Welcome</h1>
-        <img src="https://images.unsplash.com/photo-1473655717998-7a3fd125491b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aad5c83867c2c992b54a180fa5d7cd55&auto=format&fit=crop&w=1052&q=80" />
+        <img
+          src="./img/fabric-scissors-needle-needles-461035.jpg"
+          alt="Thread"
+          className="hero"
+        />
         <ProjectGallery posts={posts} />
       </Layout>
     );
