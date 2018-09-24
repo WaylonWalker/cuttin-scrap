@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ProjectGallery from "../components/ProjectGallery";
+import ProjectNav from "../components/ProjectNav";
 
 export default class ProjectPage extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class ProjectPage extends React.Component {
       <Layout>
         <h1>Projects</h1>
         <ProjectGallery posts={posts} />
+        <ProjectNav posts={posts}/>
       </Layout>
     );
   }
