@@ -36,6 +36,11 @@ const Navbar = () => (
               Contact Us
             </Link>
           </li>
+          <li>
+            <Link className="navbar-item" to="/style-guide">
+              Style Guide
+            </Link>
+          </li>
         </ul>
         
   </nav>
