@@ -1,49 +1,33 @@
 ---
 templateKey: project-post
-title: MMM Doughnut
-thumbnailImage: /img/Rhiannon_fun.jpg
+title: Waylon's Wooden Quilt
+thumbnailImage: /img/img_20180327_222709_183.jpg
 date: 2018-09-23T02:11:43.889Z
-description: awesome doughnut
+description: First Quilt I did on my own from start to finish.
 tags:
-  - carcinoid
+  - Husbandquilt
+  - freemotion
+  - mansewing
+  - designonmyown
+  - learning
+  - cuttinscrap
+  - cuttingscrap
+  - quilt
+  - sexyman
+  - legacyquilt1
 ---
-# The Moment life stops...
+As a beginning quilter, I decided, what’s  the best quilt to start with? Ah ha…I know! I should design my own.  I don’t know what I was thinking. This quilt took me a couple years to complete, and a down right new respect for learning to quilt.
 
-_November 25, 2016_
+## Quilting Process
 
-"You have cancer, a carcinoid tumor in your left lung."These were the words I heard Wednesday, November 23, 2016 at 12:20pm.  This is the exact moment in time, when I started questioning my future.
+ I finished it as I started it, being the first quilt I free motion quilted.   It turned out better than I expected, and Waylon loves it!
 
-I left the office, briskly walked to my car and sobbed.  I couldn't believe the words I just heard. I am 26 years old. I have two small children.  How can I have cancer? How will I tell my family, my friends, and what does this mean for my future?
+![There is something sexy about a man and his quilt!](/img/waylon-sleeping.jpg)
 
-Driving home from the appointment was a blur.  I parked in front of my house and got out of the car, as I walked up the driveway Waylon opened the door and two small faces came bursting out from behind him.  I looked into his eyes and shook my head.  With a shake of my head I just changed his life.  I lost it again, I laid my head on his shoulders and began to wonder would this be the start of counting down hugs?
+## What I learned
 
-As I'm sobbing, Wyatt senses something isn't right and jumps into the couch and curls into his knees.  Ayla let's out a whimper and hugs my legs.  I kneel down and hold her, and Wyatt springs into action wrapping his arms around me.
+I wish I could tell you the step by step instructions to  creating this piece, but all I can tell you is that the inside square was created by me cutting fabric, screwing up, and trying to salvage what I had just done, because hot damn fabric is expensive.  So, if you learn anything from this pathetic tutorial is my name is Rhiannon, don’t be like Rhiannon.  Well, at least the 2014 Rhiannon.  Now, the 2018 me is half a lung down and has my shit together.  That was fun, just to write.  Enough shit to make a plan before starting the quilt.
 
-**In that exact moment, I decided to fight.**
+![](/img/up-close-of-wood-quilting.jpg)
 
-Holding those kids, my kids, is the most important thing to me, and I don't want to loose that privilege.
-
-The rest of the day is a blur, packing to leave to go to Iowa for Thanksgiving, calling family, and texting friends.  Breaking the news to those closest to me.  Physically saying the words, but feeling nothing.  Numb to lightening that just stuck me, but feeling the effects with every wheeze that escapes.
-
-I continue to remain numb, completing the actions and ignoring the emotions.  I make it through most of Thanksgiving until my Grandpa calls me.  He doesn't know yet. My Dad didn't get a chance to call him yet.  I ignore the call.  Take a couple minutes to realize I can't ignore this call.  This man is sitting at home alone worried about his Granddaughter.  I pick up the phone and call him back.  The first part of the call I remain numb, I give him the details regarding my cancer, everything I know up until this point. Then it happens.  He breaks down, sobs are echoing through the phone. Tears pool in my eyes. He tells me this has been the hardest year.  He tells me how scared he is for me, how scared he is for something to happen to me.  I tell him the good thing is I'm young and fairly healthy, I have a good chance.  We hang up, and I immediately dart upstairs away from the packed house and into an empty room.  I sit on the bed and sob uncontrollably.  What do I possibly have to be thankful for.  Why do I need to put on a face for all these people?  I have every right to be angry.  I'm done putting on the show. This is me and I have cancer.
-
-We decided to head back to Waylon's parents house. I gather all our stuff, ask for assistance loading it, and within the hour I have packed our stuff and children into the van. 
-
-Getting to Waylon's parents my lungs are hurting, but I am open with my emotions and everyone is understanding.  The empathy is flowing in a raging river, and I have nothing to say but "Thank you."
-
-Now, where do we go from here?  I'm told things move at a fast pace from this point forward.  I'm told to be strong.  I'm told to fight like hell.  I'm told to breathe.
-
-What I Feel is: This Fucking Sucks!   I'd apologize for my language, but cussing releases endorphins, and I could use all the endorphins I can get.
-
-I will fight, I will be strong for my kids, and I will hold them a little tighter.
-
-This Blog just took a turn for war and the first shot has been fired.
-
-Upcoming Dates:
-_PET Scan - Wednesday, November 30
-_Meet with the Surgeon - December 6
-(Surgery will follow a couple days after. I will be in the hospital for 5-7 days following surgery.)
-
-Is December over yet?
-
-![hug](/img/Gizmo.jpg)
+However, I did record the process of me trying to accomplish a wood grain quilting pattern.  I sort of accomplished it.  Not to bad for my first time.
