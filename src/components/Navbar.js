@@ -3,14 +3,19 @@ import { Link } from 'gatsby'
 
 const Navbar = () => (
   <nav>
-        <Link to="/" className="navbar-item">
+        <Link to="/" alt='cuttin-scrap' className="navbar-item">
           <figure className="image">
-            < img src = 'https://res.cloudinary.com/cuttin-scrap/image/upload/c_scale,w_150/v153753233/logo/cuttinscrap.png'
+            < img src = '/img/cuttinscrap_w_150.png'
             alt = "cuttin-scrap"
             />
           </figure>
         </Link>
         <ul>
+          <li>
+            <Link className="navbar-item" to="/">
+              Home
+            </Link>
+          </li>
           <li>
             <Link className="navbar-item" to="/about">
               About
@@ -23,7 +28,7 @@ const Navbar = () => (
           </li>
           <li>
             <Link className="navbar-item" to="/blog">
-              blog
+              Blog
             </Link>
           </li>
           <li>
@@ -34,11 +39,6 @@ const Navbar = () => (
           <li>
             <Link className="navbar-item" to="/contact">
               Contact Us
-            </Link>
-          </li>
-          <li>
-            <Link className="navbar-item" to="/style-guide">
-              Style Guide
             </Link>
           </li>
         </ul>
