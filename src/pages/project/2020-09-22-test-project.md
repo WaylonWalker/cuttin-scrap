@@ -24,7 +24,7 @@ As a beginning quilter, I decided, what’s  the best quilt to start with? Ah ha
 
 ![There is something sexy about a man and his quilt!](/img/waylon-sleeping.jpg)
 
-> **Look at that hot man in his quilt.  Proud wife.**
+> Look at that hot man in his quilt.  Proud wife.
 
 ## What I learned
 
