@@ -7,7 +7,7 @@ import './sass/main.sass'
 const TemplateWrapper = ({ children }) => (
   <>
     <Helmet 
-      title="Home | Gatsby + Netlify CMS" 
+      title="CuttinScrap" 
     >
       <meta name="twitter:site" content="@cuttinscrap" />
       <meta name="og:type" content="website" />

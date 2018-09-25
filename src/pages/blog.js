@@ -10,23 +10,19 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-            </div>
+        <section className="blog-posts">
             {posts
               .map(({ node: post }) => (
                 <div
-                  className="content"
+                  className="blog-post-card"
                   style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
                   key={post.id}
                 >
                   <p>
                     <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
+                    <h2> {post.frontmatter.title} </h2>
                     </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
+                    <em>{post.frontmatter.date}</em>
                   </p>
                   <p>
                     {post.excerpt}
@@ -38,7 +34,6 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               ))}
-          </div>
         </section>
       </Layout>
     )
