@@ -10,8 +10,6 @@ tags:
   - Crown Bags
   - Re-purposing Fabric
 ---
-
-
 ## 1st and only hand quilted project
 
 This quilt was made over a three year period.  The assembling of the top was done with the expert advice of Rosy, my step mom.  The fabric for this quilt was purchased in La Claire, IA at the local quilt shop.  When choosing the fabric for this quilt I wanted to make sure to keep it hunting/outdoor themed.  I used fabric with: river rock, bricks, birch trees, turkeys, and of course the crown bags.  This quilt went to my Father-in-law for Christmas.  I may have given this present multiple years in a row, because it wasn’t done in time.  Also, this was my first realization at how much it cost to make a complete quilt.
@@ -24,13 +22,13 @@ My Father-in-law had collected crown bags for an extended amount of time.  He as
 
 We already talked about the crown bags, and what I learned using those, but there were several other things that came up during the process.  At one point I thought finishing the binding before finishing the hand quilting was going to be a good idea, definitely not.  I also squared the quilt up with no knowledge as to what I was doing, and ended up taking way too much off of the borders.  My last lesson on this quilt was that I pieced together the back, and found trying to go through all of those seams a challenge while hand quilting.
 
-![Pieced Back of the Quilt]()
+![Pieced Back of the Quilt](/img/back-of-crown-quilt.jpg)
 
 ## What I Loved
 
 I can’t tell you how proud I am of this quilt.  This was my baby for a long time.  I am proud of myself for just finishing the project.  I have informed my in-laws that it comes back to me in the will.  I recommend anyone who is wanting to take a crack at hand quilting to give it a try.  You will be pleased with the end results.  
 
-![Excitement of a job well done!]()
+![Excitement of a job well done!](/img/excitment-of-finally-finishing-my-quilt.jpg)
 
 My FIL loves it, and it sits on display in the bat cave! 
 
@@ -42,4 +40,5 @@ Rosy taught me a quote that I keep in mind during  any projects I complete: "If 
 
 Well there you have it.  The story about the time I spent **3 years** hand quilting my first ever quilt. Join the journey with me on the next project, where the road is never straight!  
 
-_It’s time to clean up the scrap, and make way for the next project.  Until Next Time!_
+_It’s time to clean up the scrap, and make way for the next project.  Until Next Time!
+_
