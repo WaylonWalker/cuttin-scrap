@@ -14,7 +14,7 @@ export const GivingBackPageTemplate = ({ title, content, contentComponent }) => 
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <form name='giving-back' method="POST" netlify>
+              <form name='giving-back' method="POST" data-netlify="true">
                 <p>
                   <label>Your Name: <input type="text" name="name" /></label>
                 </p>
