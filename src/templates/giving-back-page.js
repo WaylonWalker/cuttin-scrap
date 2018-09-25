@@ -9,17 +9,23 @@ export const GivingBackPageTemplate = ({ title, content, contentComponent }) => 
 
   return (
     <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
+            <div  className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
+              <form name='giving-back' method="POST" netlify>
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label> Message: <textarea name="message"></textarea></label>
+                </p>
+                <button type="submit">Send</button>
+              </form>
       </div>
     </section>
   )
