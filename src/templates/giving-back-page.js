@@ -24,6 +24,7 @@ export const GivingBackPageTemplate = ({ title, content, contentComponent }) => 
                 <p>
                   <label> Message: <textarea name="message"></textarea></label>
                 </p>
+                <div data-netlify-recaptcha></div>
                 <button type="submit">Send</button>
               </form>
       </div>
