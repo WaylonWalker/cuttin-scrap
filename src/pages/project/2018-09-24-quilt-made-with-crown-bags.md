@@ -1,6 +1,6 @@
 ---
 templateKey: project-post
-title: Quilt made with Crown Bags
+title: Crown Bags Quilt
 thumbnailImage: /img/crown-royal-bag-quilt.jpg
 date: 2018-09-24T17:19:39.313Z
 description: Re-purposing Crown Royal Bags
