@@ -4,7 +4,20 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-offline',
     'gatsby-plugin-sass',
+      {
+        resolve: `gatsby-plugin-manifest`,
+        options: {
+          name: `CuttinScrap`,
+          short_name: `CuttinScrap`,
+          start_url: `/`,
+          background_color: `#FFFFFF`,
+          theme_color: `#0394AF`,
+          display: `standalone`,
+          icon: `static/img/cuttinscrap.png`, // This path is relative to the root of the site.
+        },
+      },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
