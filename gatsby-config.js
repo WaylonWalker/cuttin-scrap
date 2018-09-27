@@ -4,7 +4,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-offline',
     'gatsby-plugin-sass',
       {
         resolve: `gatsby-plugin-manifest`,
@@ -18,6 +17,7 @@ module.exports = {
           icon: `static/img/cuttinscrap.png`, // This path is relative to the root of the site.
         },
       },
+    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
