@@ -13,26 +13,14 @@ export default class IndexPage extends React.Component {
         <section className="blog-posts">
             {posts
               .map(({ node: post }) => (
-                <div
-                  className="blog-post-card"
-                  style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                  key={post.id}
-                >
-                  <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
+                <Link className="blog-post-card" key={post.id} to={post.fields.slug}>
+                  <div>
                     <h2> {post.frontmatter.title} </h2>
-                    </Link>
-                    <em>{post.frontmatter.date}</em>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
-                    </Link>
-                  </p>
-                </div>
+                    <div className='bottom'>
+                      <em>{post.frontmatter.date}</em>
+                    </div>
+                  </div>
+                </Link>
               ))}
         </section>
       </Layout>
