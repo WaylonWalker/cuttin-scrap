@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import './sass/main.sass'
 
 const TemplateWrapper = ({ children }) => (
@@ -20,6 +21,8 @@ const TemplateWrapper = ({ children }) => (
 
     <Navbar />
     <div id='content'>{children}</div>
+    
+    <Footer />
   </>
 )
 
