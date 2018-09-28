@@ -4,18 +4,18 @@ import ProjectGalleryItem from "../components/ProjectGalleryItem";
 
 const ProjectGallery = props => {
   return (
-    <div className="projectGalleryWrapper">
-      <div className="projectTitleWrapper">
+    <section className="project GalleryWrapper">
+      <div className="project TitleWrapper">
         <div className="bar" />
         <h1>Projects</h1>
         <div className="bar" />
       </div>
-      <section className="projectGallery">
+      <div className="project gallery">
         {props.posts.map(({ node: post }) => (
           <ProjectGalleryItem post={post} key={post.id} />
         ))}
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

@@ -1,7 +1,8 @@
-.projectGalleryWrapper
+.GalleryWrapper
+    background: $white
     // display: grid
     // grid-template-columns: 1fr 10fr 1fr
-    .projectTitleWrapper
+    .project.TitleWrapper
         display: grid
         grid-template-columns: 2fr 1fr 2fr
         align-items: center
@@ -13,7 +14,7 @@
 
         .bar
             border-bottom: 1px solid rgba($black, .2)
-.projectGallery
+.project.gallery
     display: grid
     grid-gap: 1rem
     grid-column: 2
@@ -32,7 +33,7 @@
         text-decoration: none
         color: $black
 
-    .projectThumbnail
+    .project.thumbnail
         display: grid
         justify-content: center
         justify-items: center
@@ -49,7 +50,7 @@
             height: 100%
             width: 100%
         
-        .projectOverlay
+        .project.overlay
             background: #ffc60032
             background: $white
             grid-column: 1 / -1;
@@ -65,10 +66,10 @@
             width: 100%
 
 
-        &:hover .projectOverlay
+        &:hover .project.overlay
             transform: translateY(0)
 
-section.projectPost
+section.project .post
     padding: 1rem
     margin: auto
     max-width: 800px
@@ -78,7 +79,7 @@ section.projectPost
         width: calc(100vw - 2rem)
     
 
-ul.projectNav
+ul.project-nav
     display: flex
     flex-direction: column
     align-items: center
@@ -90,7 +91,7 @@ ul.projectNav
         text-decoration: none
 
 
-.ProjectNavWrapper
+.project .nav-wrapper
     text-align: center
     display: flex
     flex-direction: column
