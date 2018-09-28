@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ProjectGallery from "../components/ProjectGallery";
+import BlogGallery from "../components/BlogGallery";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class IndexPage extends React.Component {
       <Layout>
         <div className="hero" />
         <ProjectGallery posts={posts} />
+        <BlogGallery/>
       </Layout>
     );
   }
