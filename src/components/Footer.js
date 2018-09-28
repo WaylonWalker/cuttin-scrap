@@ -7,8 +7,11 @@ const ProjectGallery = props => {
     <footer>
       <em>share your scraps with us</em>
       <h3>social media</h3>
+      <p>Comming Soon</p>
       <h3>contact</h3>
+      <p>Comming Soon</p>
       <h3>metrics</h3>
+      <p>Comming Soon</p>
     </footer>
   );
 };
