@@ -8,7 +8,7 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
+    <section>
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
