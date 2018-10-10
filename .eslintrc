@@ -4,13 +4,13 @@
         "prettier",
         "prettier/react"
     ],
-    "parser": "babel-eslint",
+    "parser": "babel-eslt",
     "parserOptions": {
         "ecmaVersion": 8,
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
             "impliedStrict": true,
-            "classes": true,
+            "classes": true
         }
     },
     "env": {
@@ -20,7 +20,8 @@
     },
     "rules": {
         "no-unused-vars": [
-            1, {
+            1,
+            {
                 "argsIgnorePattern": "res|next|^err"
             }
         ],
@@ -29,7 +30,8 @@
             "as-needed"
         ],
         "no-param-reassign": [
-            2, {
+            2,
+            {
                 "props": false
             }
         ],
@@ -47,7 +49,8 @@
         "react/forbid-prop-types": 0,
         "react/no-unescaped-entities": 0,
         "react/jsx-filename-extension": [
-            1, {
+            1,
+            {
                 "extensions": [
                     ".js",
                     ".jsx"
@@ -56,7 +59,8 @@
         ],
         "radix": 0,
         "no-shadow": [
-            2, {
+            2,
+            {
                 "hoist": "all",
                 "allow": [
                     "resolve",
@@ -70,13 +74,15 @@
         ],
         "quotes": [
             2,
-            "single", {
+            "single",
+            {
                 "avoidEscape": true,
                 "allowTemplateLiterals": true
             }
         ],
         "prettier/prettier": [
-            "error", {
+            "error",
+            {
                 "trailingComma": "es5",
                 "singleQuote": true,
                 "printWidth": 120
@@ -84,7 +90,8 @@
         ],
         "jsx-a11y/href-no-hash": "off",
         "jsx-a11y/anchor-is-valid": [
-            "warn", {
+            "warn",
+            {
                 "aspects": [
                     "invalidHref"
                 ]
@@ -94,5 +101,10 @@
     "plugins": [
         "eslint-plugin-html",
         "prettier"
+    ],
+    "semi": false,
+    "indent": [
+        "error",
+        2
     ]
 }
