@@ -8,7 +8,6 @@ const ProjectGallery = props => {
   return (
     <footer>
       <Social />
-      <Contact />
     </footer>
   );
 };
