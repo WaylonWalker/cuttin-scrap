@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import ProjectGalleryItem from "../components/ProjectGalleryItem";
 
-const ProjectGallery = props => {
+const BlogGallery = props => {
   return (
     <section className="project GalleryWrapper">
       <div className="project TitleWrapper">
@@ -11,13 +11,22 @@ const ProjectGallery = props => {
         <div className="bar" />
       </div>
       <div className="project Gallery">
-        <p>blogs here</p>
-        {/* {props.posts.map(({ node: post }) => (
-          <ProjectGalleryItem post={post} key={post.id} />
-        ))} */}
+        <section className="blog-posts">
+          {props.posts
+            .map(({ node: post }) => (
+              <Link className="blog-post-card" key={post.id} to={post.fields.slug}>
+                <div>
+                  <h2> {post.frontmatter.title} </h2>
+                  <div className='bottom'>
+                    <em>{post.frontmatter.date}</em>
+                  </div>
+                </div>
+              </Link>
+            ))}
+        </section>
       </div>
     </section>
   );
 };
 
-export default ProjectGallery;
+export default BlogGallery;
