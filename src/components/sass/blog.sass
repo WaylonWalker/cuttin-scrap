@@ -5,7 +5,8 @@ $color-primary-2: #CBEDF4;
 $color-primary-3: #98D3DE;
 $color-primary-4: #7FC2CE;
 
-
+img
+    max-width: 95vw
 .blog-post
     padding: 0 1rem
     margin: auto
@@ -15,32 +16,34 @@ $color-primary-4: #7FC2CE;
     margin: auto
     display: grid
     grid-template-columns: repeat(auto-fill, 300px)
+    grid-auto-rows: 300px
     grid-gap: .4rem
     justify-content: center
     text-align: center
     a 
-        text-decoration: none
+        text-decoration: nonej
+        
     .blog-post-card
-        height: 300px
-        width: 300px
+        // height: 300px
+        // width: 300px
         
         overflow: 
         position: relative
         background: darken($white, 1%)
-        &:nth-of-type(4n-1)
-            border-radius: 2rem
-        &:nth-of-type(3n-2)
-            &:before
-                background: $white
-                position: absolute
-                height: 150px
-                width: 150px
-                bottom: -75px
-                left: -75px
-                content: ''
-                transform: rotate(45deg)
-                border-radius: 50%
-                border-radius: 50%
+        // &:nth-of-type(4n-1)
+        //     border-radius: 2rem
+        // &:nth-of-type(3n-2)
+        //     &:before
+        //         background: $white
+        //         position: absolute
+        //         height: 150px
+        //         width: 150px
+        //         bottom: -75px
+        //         left: -75px
+        //         content: ''
+        //         transform: rotate(45deg)
+        //         border-radius: 50%
+        //         border-radius: 50%
                 
         &:nth-of-type(5n-4)
             background: $color-primary-0
@@ -79,3 +82,10 @@ $color-primary-4: #7FC2CE;
         //     bottom: 0
 
 
+    @media screen and (max-width: 800px)
+        grid-template-columns: repeat(auto-fill, 150px)
+        grid-auto-rows: minmax(150px, 100%)
+        .blog-post-card
+            h2
+                padding-top: 0rem
+                font-size: 1.4rem
