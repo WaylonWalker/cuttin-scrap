@@ -4,7 +4,7 @@
         "prettier",
         "prettier/react"
     ],
-    "parser": "babel-eslt",
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 8,
         "ecmaFeatures": {
