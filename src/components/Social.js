@@ -17,6 +17,5 @@ export default () => (
     <a
       href="mailto:cuttin.scrap@gmail.com"
       title='email'> <FaEnvelope /> </a>
-
   </div>
 )
