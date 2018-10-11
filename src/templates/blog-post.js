@@ -19,28 +19,28 @@ export const BlogPostTemplate = ({
   return (
     <section className="blog-post">
       {helmet || ''}
-            <h1 className="blog title">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-        <p>
+      <h1 className="blog title">
+        {title}
+      </h1>
+      <p>{description}</p>
+      <PostContent content={content} />
+      {tags && tags.length ? (
+        <div style={{ marginTop: `4rem` }}>
+          <h4>Tags</h4>
+          <ul className="taglist">
+            {tags.map(tag => (
+              <li key={tag + `tag`}>
+                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+      <p>
 
-          Check out our other
+        Check out our other
           <Link to='/blog' > blogs</Link>
-        </p>
+      </p>
     </section>
   )
 }
@@ -57,7 +57,7 @@ const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout description={post.frontmatter.description} title={post.frontmatter.title} keywords={post.frontmatter.tags} time={post.frontmatter.date} url={`https://cuttinscrap.com${post.frontmatter.path}`}>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -88,6 +88,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        path
       }
     }
   }
