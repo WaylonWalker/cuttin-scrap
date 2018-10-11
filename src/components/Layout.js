@@ -43,8 +43,6 @@ const TemplateWrapper = ({ children, site_name, title, theme_color, description,
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
 
-      <meta name="google-site-verification" content="56f808442edb403cb993e5d0da778344" />
-      <meta name="p:domain_verify" content="56f808442edb403cb993e5d0da778344" />
     </Helmet>
 
     <Navbar />
