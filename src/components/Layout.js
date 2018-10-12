@@ -49,19 +49,19 @@ const TemplateWrapper = ({ children, site_name, title, theme_color, description,
         {`{
           "@context": "http://schema.org",
           "@type": "BlogPosting",
-          "headline": ${description},
-          "image": ${image},
-          "editor": ${author},
-          "keywords": ${keywords},
-          "url": ${url},
-          "datePublished": ${time},
-          "dateCreated": ${time},
-          "dateModified": ${time},
-          "description": ${description},
-          "articleBody": ${body},
+          "headline": "${description}",
+          "image": "${image}",
+          "editor": "${author}",
+          "keywords": "${keywords}",
+          "url": "${url}",
+          "datePublished": "${time}",
+          "dateCreated": "${time}",
+          "dateModified": "${time}",
+          "description": "${description}",
+          "articleBody": "${body}",
           "author": {
             "@type": "Person",
-            "name": ${author} 
+            "name": "${author}" 
           }
         }`}
       </script>
