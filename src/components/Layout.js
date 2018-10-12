@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './sass/main.sass'
 
-const TemplateWrapper = ({ children, site_name, title, theme_color, description, keywords, image, url, card, fb_app_id, twitter, time, author, type }) => (
+const TemplateWrapper = ({ children, site_name, title, theme_color, description, keywords, image, url, card, fb_app_id, twitter, time, author, type, body }) => (
   <>
     <Helmet
       title="CuttinScrap"
@@ -45,7 +45,37 @@ const TemplateWrapper = ({ children, site_name, title, theme_color, description,
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
 
+      <script type="application/ld+json">
+        {`{
+          "@context": "http://schema.org",
+          "@type": "BlogPosting",
+          "headline": ${description},
+          "image": ${image},
+          "editor": ${author},
+          "keywords": ${keywords},
+          "url": ${url},
+          "datePublished": ${time},
+          "dateCreated": ${time},
+          "dateModified": ${time},
+          "description": ${description},
+          "articleBody": ${body},
+          "author": {
+            "@type": "Person",
+            "name": ${author} 
+          }
+        }`}
+      </script>
+
     </Helmet>
+    {/* <div itemscope itemtype="http://schema.org/Article">
+      <meta itemprop="url" content={url} />
+      <span itemprop="name" content={title} />
+      <span itemprop="author" content={author} />
+      <meta itemprop="image" content={image} alt={title} />
+      <meta itemprop="description" content={description} />
+      <meta itemprop="" content={description} />
+
+    </div> */}
 
     <Navbar />
     <div id='content'>{children}</div>
@@ -68,5 +98,6 @@ TemplateWrapper.defaultProps = {
   time: "",
   author: "Rhiannon Walker",
   type: "blog",
+  body: ""
 }
 export default TemplateWrapper
