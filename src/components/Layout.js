@@ -51,8 +51,8 @@ const TemplateWrapper = ({ children, site_name, title, theme_color, description,
           "@type": "BlogPosting",
           "mainEntityOfPage": {
             "@type": "BlogPosting",
-            "@id": ${url}
-          }
+            "@id": "${url}"
+          },
           "headline": "${description}",
           "image": "${image}",
           "editor": "${author}",
