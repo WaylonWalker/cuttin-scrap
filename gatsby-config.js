@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'CuttinScrap',
+    siteUrl: `https://www.cuttinscrap.com`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
