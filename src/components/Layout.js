@@ -22,6 +22,7 @@ const TemplateWrapper = ({ children, site_name, title, theme_color, description,
 
       <meta property="article:published_time" content={time} />
       <meta property="article:modified_time" content={time} />
+      <meta property="article:author" content={author} />
 
       <meta itemprop="name" content={title} />
       <meta itemprop="description" content={description} />
