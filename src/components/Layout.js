@@ -34,6 +34,7 @@ const TemplateWrapper = ({ children, site_name, title, theme_color, description,
       <meta name="twitter:description" content={description} />
       <meta name="twitter:creator" content={twitter} />
       <meta name="twitter:image:src" content={image} />
+      <meta name="twitter:image" content={image} />
 
       <meta property="fb:admins" content={fb_app_id} />
 
