@@ -63,6 +63,10 @@ const TemplateWrapper = ({ children, site_name, title, theme_color, description,
             "@type": "Person",
             "name": "${author}" 
           }
+          "publisher": {
+            "@type": "Person",
+            "name": "${author}" 
+          }
         }`}
       </script>
 
