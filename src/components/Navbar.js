@@ -45,6 +45,9 @@ export default class Navbar extends Component {
             </Link>
           </li>
           <li>
+            <a href="https://anchor.fm/onebreathatatime">Podcast</a>
+          </li>
+          <li>
             <Link className="navbar-item" to="/blog">
               Blog
             </Link>
