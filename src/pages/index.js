@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ProjectGallery from "../components/ProjectGallery";
 import BlogGallery from "../components/BlogGallery";
+import PodcastGallery from "../components/PodcastGallery";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -14,6 +15,7 @@ export default class IndexPage extends React.Component {
       <Layout>
         <div className="hero" />
         <ProjectGallery posts={projects.edges} />
+        <PodcastGallery />
         <BlogGallery posts={blogs.edges} />
       </Layout>
     );
